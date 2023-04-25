@@ -6,9 +6,16 @@
       <section id="about">
         {% include about.html %}
       </section>
-      <section id="projects">
+
+      {% assign projects_id = "projects" %}
+      {% assign projects_title = "Projects" %}
+      {% assign projects_list = site.projects %}
+      {% include projects.html %}
+      <!-- <section id="projects">
         {% include projects.html %}
-      </section>
+      </section> -->
+
+
         {{ content }}
       {% include footer.html %}
   </body>
