@@ -1,17 +1,24 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: My portfolio
+description: In this website you will find all of my projects, completed and in progress
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+username: Marta Bianchini
+user_title: Software Engineer
+user_description: Hi there, I’m Marta! I am a career‑changer Software Engineer! I come from Italy where I graduated in Orthoptics at the University of Florence. 
+  In 2017 I move to the UK to work at the Royal Surrey NHS Foundation Trust in Guildford and then I moved to London where I worked for the Central London Community Healthcare NHS Trust. 
+  In 2022, as a personal project, I started to learn Software Development basics. After a few months of independent study and exercise, where I challenged myself and practiced my coding and problem-solving skills, I decided to give my career a twist and become a fully-fledged Software Engineer.
+  I was enrolled at Makers Academy, a highly selective and intensive 16-week Software Engineering bootcamp. 
+  In the 16 weeks of my bootcamp I had the chance to conslidate the coding foundamentals I learned and ampliate my knowledge. I have worked building programs with databases, web applications and mobile applications.
+  Through this experience, I gained a strong foundation in writing clear, adaptable, and testable code.
+
+email: marta.bianchini24@gmail.com
+github_url: https://github.com/MartaBia
+linkedin_url: https://www.linkedin.com/in/marta-bianchini/
+# twitter_username: lorem_ipsum
+
 
 # Google-analytics
 google-analytics:
