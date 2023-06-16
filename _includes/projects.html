@@ -4,8 +4,29 @@
   </div>
   {% assign sorted_projects = projects_list | sort: 'date' | reverse %}
   {% for project in sorted_projects %}
-    <div class="user-projects">
+    <!-- <div class="user-projects">
       <div class="images-right">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.img_alt }}" />
+      </div>
+      <div class="contents">
+        <h3>{{ project.title }}</h3>
+        <ul>
+          {% for technology in project.technologies %}
+            <li>{{ technology }}</li>
+          {% endfor %}
+        </ul>
+        <p>{{ project.description }}</p>
+        {% if project.github_url %}
+          <a class="project-link" href="{{ project.github_url }}">Check it out on my GitHub</a>
+        {% endif %}
+      </div>
+    </div> -->
+    <div class="user-projects {% if forloop.index0 | modulo: 2 == 0 %}right-image{% else %}left-image{% endif %}">
+      {% if forloop.index0 | modulo: 2 == 0 %}
+        <div class="images-right">
+      {% else %}
+        <div class="images-left">
+      {% endif %}
         <img src="{{ project.image | relative_url }}" alt="{{ project.img_alt }}" />
       </div>
       <div class="contents">
